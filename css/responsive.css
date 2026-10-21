@@ -1,0 +1,118 @@
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: var(--space-5);
+  }
+
+  .site-footer__top {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .site-footer__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    --container-gutter: 1.25rem;
+  }
+
+  .site-header__inner {
+    min-height: 4.5rem;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    max-height: 0;
+    background: rgba(10, 10, 12, 0.94);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    backdrop-filter: blur(18px) saturate(140%);
+    transition:
+      max-height var(--transition-medium),
+      opacity var(--transition-fast),
+      visibility var(--transition-fast);
+  }
+
+  .site-nav[data-open="true"] {
+    max-height: 22rem;
+    border-bottom: 1px solid var(--color-line);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .site-nav__list {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0;
+    padding: 0.5rem var(--container-gutter) 1rem;
+  }
+
+  .site-nav__link {
+    display: block;
+    padding-block: 0.85rem;
+  }
+
+  .site-header__actions {
+    gap: 0.35rem;
+  }
+
+  .cart-link {
+    min-height: 2.75rem;
+    font-size: 0.65rem;
+  }
+
+  .section__intro {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .site-footer__top {
+    gap: var(--space-5) var(--space-3);
+  }
+
+  .site-footer__bottom {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+  .announcement-bar {
+    font-size: 0.58rem;
+  }
+
+  .product-card__details {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form .button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

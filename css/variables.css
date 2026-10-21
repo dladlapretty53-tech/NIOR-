@@ -1,0 +1,32 @@
+:root {
+  color-scheme: dark;
+  --color-ink: #0a0a0c;
+  --color-ink-soft: #121116;
+  --color-paper: #f2eef5;
+  --color-surface: #151319;
+  --color-purple: #b8a0d1;
+  --color-purple-muted: #8e7a9f;
+  --color-purple-glow: #6b5b7b;
+  --color-purple-deep: #211a29;
+  --color-muted: #aaa3b0;
+  --color-line: rgba(226, 214, 239, 0.16);
+
+  --font-sans: "Manrope", "Arial", sans-serif;
+  --font-editorial: "Cormorant Garamond", "Georgia", serif;
+
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4.5rem;
+  --space-8: 6.5rem;
+
+  --container-width: 90rem;
+  --container-gutter: clamp(1.25rem, 5vw, 5rem);
+  --radius-small: 0.15rem;
+  --radius-pill: 999px;
+  --transition-fast: 180ms ease;
+  --transition-medium: 320ms ease;
+}
