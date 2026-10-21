@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">NIOR</title>
+  <text
+    x="160"
+    y="74"
+    fill="#f2eef5"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="72"
+    font-weight="500"
+    letter-spacing="12"
+    text-anchor="middle"
+  >NIOR</text>
+</svg>
