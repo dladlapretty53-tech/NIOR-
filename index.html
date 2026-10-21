@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0a0c">
+    <meta
+      name="description"
+      content="NIOR is a Pretoria-based luxury streetwear concept for people building their own lane."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NIOR — Made for Your Own Lane">
+    <meta
+      property="og:description"
+      content="A contemporary streetwear concept from Pretoria, South Africa."
+    >
+    <meta property="og:image" content="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&amp;fit=crop&amp;w=1200&amp;q=85">
+    <title>NIOR — Made for Your Own Lane</title>
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell" id="top">
+      <div class="announcement-bar">
+        Pretoria, South Africa <span aria-hidden="true">&nbsp;·&nbsp;</span> Made for people building their own lane
+      </div>
+
+      <header class="site-header">
+        <div class="site-header__inner container">
+          <a class="wordmark wordmark--nav" href="#top" aria-label="NIOR home">
+            <img src="assets/logo.svg" alt="" width="320" height="100">
+          </a>
+
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="site-navigation"
+            data-menu-toggle
+          >
+            <span class="menu-toggle__icon" aria-hidden="true"></span>
+          </button>
+
+          <nav class="site-nav" id="site-navigation" aria-label="Main navigation" data-site-nav data-open="false">
+            <ul class="site-nav__list">
+              <li><a class="site-nav__link" href="#top" aria-current="page">Home</a></li>
+              <li><a class="site-nav__link" href="#featured-drop">Shop</a></li>
+              <li><a class="site-nav__link" href="#brand-note">About</a></li>
+              <li><a class="site-nav__link" href="#contact-note">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="site-header__actions">
+            <span class="cart-link" aria-label="Shopping bag count">
+              <span aria-hidden="true">Bag</span>
+              <span
+                class="cart-count"
+                data-cart-count
+                role="status"
+                aria-label="0 items in bag"
+                aria-live="polite"
+              >0</span>
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <main class="site-main" id="main-content">
+        <section class="home-hero" aria-labelledby="hero-title">
+          <div class="home-hero__mist" data-hero-mist aria-hidden="true">
+            <span class="home-hero__mist-glow home-hero__mist-glow--one"></span>
+            <span class="home-hero__mist-glow home-hero__mist-glow--two"></span>
+          </div>
+          <div class="home-hero__copy">
+            <p class="eyebrow home-hero__eyebrow">NIOR / Pretoria, South Africa</p>
+            <h1 class="home-hero__title" id="hero-title">Made for your <span>own lane.</span></h1>
+            <p class="home-hero__description">
+              Contemporary streetwear for people moving with intention. No borrowed path. No permission needed.
+            </p>
+            <div class="home-hero__actions">
+              <a class="button button--light" href="#featured-drop">Explore the concepts</a>
+              <a class="button button--outline button--light" href="#brand-note">Discover NIOR</a>
+            </div>
+          </div>
+          <div class="home-hero__media">
+            <img
+              class="home-hero__image"
+              data-home-hero-image
+              src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&amp;fit=crop&amp;w=1800&amp;q=85"
+              alt="Streetwear editorial photograph used as a temporary campaign image"
+              width="1800"
+              height="2200"
+              fetchpriority="high"
+            >
+            <span class="home-hero__index" aria-hidden="true">Editorial image / 01</span>
+          </div>
+        </section>
+
+        <section class="section container home-intro" id="brand-note" aria-labelledby="brand-note-title" data-reveal>
+          <div>
+            <p class="eyebrow">A point of view</p>
+            <p class="home-intro__copy">
+              NIOR is a Pretoria-based streetwear concept shaped around individuality, ambition, quality and self-expression.
+              Built for the ones creating their own direction.
+            </p>
+            <div class="home-intro__values" aria-label="NIOR values">
+              <span class="value-tag">Individuality</span>
+              <span class="value-tag">Intention</span>
+              <span class="value-tag">Self-expression</span>
+            </div>
+          </div>
+          <h2 class="home-intro__statement" id="brand-note-title">
+            Made for people building <em>their own lane.</em>
+          </h2>
+        </section>
+
+        <section class="section featured-section" id="featured-drop" aria-labelledby="featured-title" data-reveal>
+          <div class="container">
+            <div class="section__intro">
+              <div class="section__intro-copy">
+                <p class="eyebrow">The first look</p>
+                <h2 class="section-heading" id="featured-title">Considered essentials.<br>Unmistakably yours.</h2>
+              </div>
+              <p class="muted-copy">A visual direction for the NIOR collection.</p>
+            </div>
+            <div class="product-grid" data-featured-products aria-label="Demonstration product concepts"></div>
+            <p class="demo-note">
+              Concept imagery and indicative prices for demonstration only. These are not confirmed products, stock or offers.
+            </p>
+          </div>
+        </section>
+
+        <section class="campaign" aria-labelledby="campaign-title" data-reveal>
+          <div class="campaign__media">
+            <img
+              class="campaign__image"
+              data-campaign-image
+              src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&amp;fit=crop&amp;w=1400&amp;q=85"
+              alt="Temporary black-and-white editorial fashion photograph"
+              width="1400"
+              height="1600"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <div class="campaign__copy">
+            <p class="eyebrow">Move with intention</p>
+            <h2 class="campaign__title" id="campaign-title">Not made to follow.</h2>
+            <p>
+              A quieter uniform for a louder sense of self. NIOR starts with a simple belief: your direction is yours to define.
+            </p>
+            <a class="button button--light" href="#brand-note">The NIOR point of view</a>
+          </div>
+        </section>
+
+        <section class="newsletter-section section" id="newsletter" aria-labelledby="newsletter-title" data-reveal>
+          <div class="container newsletter-section__inner">
+            <div>
+              <p class="eyebrow">Stay in the loop</p>
+              <h2 class="newsletter-section__title" id="newsletter-title">The next move starts here.</h2>
+              <p class="newsletter-section__copy">Occasional notes from NIOR. No noise.</p>
+            </div>
+            <div class="newsletter-form-wrap">
+              <form class="newsletter-form" data-newsletter-form novalidate>
+                <label class="visually-hidden" for="newsletter-email">Email address</label>
+                <input
+                  id="newsletter-email"
+                  type="email"
+                  placeholder="Your email address"
+                  autocomplete="email"
+                  aria-describedby="newsletter-status"
+                  required
+                >
+                <button class="button button--light" type="submit">Notify me</button>
+              </form>
+              <p class="newsletter-status" id="newsletter-status" data-newsletter-status role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer" id="contact-note">
+        <div class="container">
+          <div class="contact-note" data-reveal>
+            <div class="contact-note__copy">
+              <p class="eyebrow">NIOR / Pretoria</p>
+              <h2 class="section-heading">Your lane.<br>Your rules.</h2>
+              <p>Direct contact details and social channels will be added once NIOR's official business accounts are confirmed.</p>
+            </div>
+            <a class="button button--light" href="#newsletter">Stay connected</a>
+          </div>
+
+          <div class="site-footer__top" data-reveal>
+            <div class="site-footer__brand">
+              <a class="wordmark wordmark--footer" href="#top" aria-label="NIOR home">
+                <img src="assets/logo.svg" alt="" width="320" height="100">
+              </a>
+              <p class="footer-note">Made for people building their own lane.<br>Pretoria, South Africa.</p>
+            </div>
+            <div>
+              <h3 class="site-footer__heading">Explore</h3>
+              <ul class="footer-link-list">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#featured-drop">Featured concepts</a></li>
+                <li><a href="#brand-note">Our point of view</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="site-footer__heading">Before launch</h3>
+              <p class="footer-note">Product details, official contact channels and store policies are not yet published.</p>
+            </div>
+          </div>
+          <div class="site-footer__bottom">
+            <span>© <span id="copyright-year">2026</span> NIOR</span>
+            <span>Demonstration homepage · Business details to be confirmed</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
